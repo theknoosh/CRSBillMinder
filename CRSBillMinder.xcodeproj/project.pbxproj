@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36DB657419CCAD61005F2E10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DB657319CCAD61005F2E10 /* Foundation.framework */; };
+		36DB657619CCAD61005F2E10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DB657519CCAD61005F2E10 /* CoreGraphics.framework */; };
+		36DB657819CCAD61005F2E10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DB657719CCAD61005F2E10 /* UIKit.framework */; };
+		36DB657A19CCAD61005F2E10 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DB657919CCAD61005F2E10 /* CoreData.framework */; };
+		36DB658019CCAD61005F2E10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36DB657E19CCAD61005F2E10 /* InfoPlist.strings */; };
+		36DB658219CCAD61005F2E10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DB658119CCAD61005F2E10 /* main.m */; };
+		36DB658619CCAD61005F2E10 /* CRSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DB658519CCAD61005F2E10 /* CRSAppDelegate.m */; };
+		36DB658919CCAD61005F2E10 /* CRSBillMinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36DB658719CCAD61005F2E10 /* CRSBillMinder.xcdatamodeld */; };
+		36DB658B19CCAD61005F2E10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36DB658A19CCAD61005F2E10 /* Images.xcassets */; };
+		36DB659219CCAD62005F2E10 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DB659119CCAD62005F2E10 /* XCTest.framework */; };
+		36DB659319CCAD62005F2E10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DB657319CCAD61005F2E10 /* Foundation.framework */; };
+		36DB659419CCAD62005F2E10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DB657719CCAD61005F2E10 /* UIKit.framework */; };
+		36DB659519CCAD62005F2E10 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DB657919CCAD61005F2E10 /* CoreData.framework */; };
+		36DB659D19CCAD62005F2E10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36DB659B19CCAD62005F2E10 /* InfoPlist.strings */; };
+		36DB659F19CCAD62005F2E10 /* CRSBillMinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DB659E19CCAD62005F2E10 /* CRSBillMinderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36DB659619CCAD62005F2E10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DB656819CCAD61005F2E10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36DB656F19CCAD61005F2E10;
+			remoteInfo = CRSBillMinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36DB657019CCAD61005F2E10 /* CRSBillMinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRSBillMinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36DB657319CCAD61005F2E10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		36DB657519CCAD61005F2E10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		36DB657719CCAD61005F2E10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		36DB657919CCAD61005F2E10 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		36DB657D19CCAD61005F2E10 /* CRSBillMinder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CRSBillMinder-Info.plist"; sourceTree = "<group>"; };
+		36DB657F19CCAD61005F2E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36DB658119CCAD61005F2E10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36DB658319CCAD61005F2E10 /* CRSBillMinder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CRSBillMinder-Prefix.pch"; sourceTree = "<group>"; };
+		36DB658419CCAD61005F2E10 /* CRSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRSAppDelegate.h; sourceTree = "<group>"; };
+		36DB658519CCAD61005F2E10 /* CRSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRSAppDelegate.m; sourceTree = "<group>"; };
+		36DB658819CCAD61005F2E10 /* CRSBillMinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CRSBillMinder.xcdatamodel; sourceTree = "<group>"; };
+		36DB658A19CCAD61005F2E10 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		36DB659019CCAD62005F2E10 /* CRSBillMinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRSBillMinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36DB659119CCAD62005F2E10 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		36DB659A19CCAD62005F2E10 /* CRSBillMinderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CRSBillMinderTests-Info.plist"; sourceTree = "<group>"; };
+		36DB659C19CCAD62005F2E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36DB659E19CCAD62005F2E10 /* CRSBillMinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRSBillMinderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36DB656D19CCAD61005F2E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DB657619CCAD61005F2E10 /* CoreGraphics.framework in Frameworks */,
+				36DB657A19CCAD61005F2E10 /* CoreData.framework in Frameworks */,
+				36DB657819CCAD61005F2E10 /* UIKit.framework in Frameworks */,
+				36DB657419CCAD61005F2E10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36DB658D19CCAD62005F2E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DB659219CCAD62005F2E10 /* XCTest.framework in Frameworks */,
+				36DB659519CCAD62005F2E10 /* CoreData.framework in Frameworks */,
+				36DB659419CCAD62005F2E10 /* UIKit.framework in Frameworks */,
+				36DB659319CCAD62005F2E10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36DB656719CCAD61005F2E10 = {
+			isa = PBXGroup;
+			children = (
+				36DB657B19CCAD61005F2E10 /* CRSBillMinder */,
+				36DB659819CCAD62005F2E10 /* CRSBillMinderTests */,
+				36DB657219CCAD61005F2E10 /* Frameworks */,
+				36DB657119CCAD61005F2E10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36DB657119CCAD61005F2E10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36DB657019CCAD61005F2E10 /* CRSBillMinder.app */,
+				36DB659019CCAD62005F2E10 /* CRSBillMinderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36DB657219CCAD61005F2E10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36DB657319CCAD61005F2E10 /* Foundation.framework */,
+				36DB657519CCAD61005F2E10 /* CoreGraphics.framework */,
+				36DB657719CCAD61005F2E10 /* UIKit.framework */,
+				36DB657919CCAD61005F2E10 /* CoreData.framework */,
+				36DB659119CCAD62005F2E10 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36DB657B19CCAD61005F2E10 /* CRSBillMinder */ = {
+			isa = PBXGroup;
+			children = (
+				36DB658419CCAD61005F2E10 /* CRSAppDelegate.h */,
+				36DB658519CCAD61005F2E10 /* CRSAppDelegate.m */,
+				36DB658A19CCAD61005F2E10 /* Images.xcassets */,
+				36DB658719CCAD61005F2E10 /* CRSBillMinder.xcdatamodeld */,
+				36DB657C19CCAD61005F2E10 /* Supporting Files */,
+			);
+			path = CRSBillMinder;
+			sourceTree = "<group>";
+		};
+		36DB657C19CCAD61005F2E10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36DB657D19CCAD61005F2E10 /* CRSBillMinder-Info.plist */,
+				36DB657E19CCAD61005F2E10 /* InfoPlist.strings */,
+				36DB658119CCAD61005F2E10 /* main.m */,
+				36DB658319CCAD61005F2E10 /* CRSBillMinder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36DB659819CCAD62005F2E10 /* CRSBillMinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				36DB659E19CCAD62005F2E10 /* CRSBillMinderTests.m */,
+				36DB659919CCAD62005F2E10 /* Supporting Files */,
+			);
+			path = CRSBillMinderTests;
+			sourceTree = "<group>";
+		};
+		36DB659919CCAD62005F2E10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36DB659A19CCAD62005F2E10 /* CRSBillMinderTests-Info.plist */,
+				36DB659B19CCAD62005F2E10 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36DB656F19CCAD61005F2E10 /* CRSBillMinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36DB65A219CCAD62005F2E10 /* Build configuration list for PBXNativeTarget "CRSBillMinder" */;
+			buildPhases = (
+				36DB656C19CCAD61005F2E10 /* Sources */,
+				36DB656D19CCAD61005F2E10 /* Frameworks */,
+				36DB656E19CCAD61005F2E10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CRSBillMinder;
+			productName = CRSBillMinder;
+			productReference = 36DB657019CCAD61005F2E10 /* CRSBillMinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36DB658F19CCAD62005F2E10 /* CRSBillMinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36DB65A519CCAD62005F2E10 /* Build configuration list for PBXNativeTarget "CRSBillMinderTests" */;
+			buildPhases = (
+				36DB658C19CCAD62005F2E10 /* Sources */,
+				36DB658D19CCAD62005F2E10 /* Frameworks */,
+				36DB658E19CCAD62005F2E10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36DB659719CCAD62005F2E10 /* PBXTargetDependency */,
+			);
+			name = CRSBillMinderTests;
+			productName = CRSBillMinderTests;
+			productReference = 36DB659019CCAD62005F2E10 /* CRSBillMinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36DB656819CCAD61005F2E10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CRS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Sanctuary of Darkness";
+				TargetAttributes = {
+					36DB658F19CCAD62005F2E10 = {
+						TestTargetID = 36DB656F19CCAD61005F2E10;
+					};
+				};
+			};
+			buildConfigurationList = 36DB656B19CCAD61005F2E10 /* Build configuration list for PBXProject "CRSBillMinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 36DB656719CCAD61005F2E10;
+			productRefGroup = 36DB657119CCAD61005F2E10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36DB656F19CCAD61005F2E10 /* CRSBillMinder */,
+				36DB658F19CCAD62005F2E10 /* CRSBillMinderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36DB656E19CCAD61005F2E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DB658019CCAD61005F2E10 /* InfoPlist.strings in Resources */,
+				36DB658B19CCAD61005F2E10 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36DB658E19CCAD62005F2E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DB659D19CCAD62005F2E10 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36DB656C19CCAD61005F2E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DB658919CCAD61005F2E10 /* CRSBillMinder.xcdatamodeld in Sources */,
+				36DB658219CCAD61005F2E10 /* main.m in Sources */,
+				36DB658619CCAD61005F2E10 /* CRSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36DB658C19CCAD62005F2E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DB659F19CCAD62005F2E10 /* CRSBillMinderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36DB659719CCAD62005F2E10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36DB656F19CCAD61005F2E10 /* CRSBillMinder */;
+			targetProxy = 36DB659619CCAD62005F2E10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36DB657E19CCAD61005F2E10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36DB657F19CCAD61005F2E10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		36DB659B19CCAD62005F2E10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36DB659C19CCAD62005F2E10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36DB65A019CCAD62005F2E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36DB65A119CCAD62005F2E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36DB65A319CCAD62005F2E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CRSBillMinder/CRSBillMinder-Prefix.pch";
+				INFOPLIST_FILE = "CRSBillMinder/CRSBillMinder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		36DB65A419CCAD62005F2E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CRSBillMinder/CRSBillMinder-Prefix.pch";
+				INFOPLIST_FILE = "CRSBillMinder/CRSBillMinder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		36DB65A619CCAD62005F2E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CRSBillMinder.app/CRSBillMinder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CRSBillMinder/CRSBillMinder-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CRSBillMinderTests/CRSBillMinderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		36DB65A719CCAD62005F2E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CRSBillMinder.app/CRSBillMinder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CRSBillMinder/CRSBillMinder-Prefix.pch";
+				INFOPLIST_FILE = "CRSBillMinderTests/CRSBillMinderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36DB656B19CCAD61005F2E10 /* Build configuration list for PBXProject "CRSBillMinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36DB65A019CCAD62005F2E10 /* Debug */,
+				36DB65A119CCAD62005F2E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36DB65A219CCAD62005F2E10 /* Build configuration list for PBXNativeTarget "CRSBillMinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36DB65A319CCAD62005F2E10 /* Debug */,
+				36DB65A419CCAD62005F2E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36DB65A519CCAD62005F2E10 /* Build configuration list for PBXNativeTarget "CRSBillMinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36DB65A619CCAD62005F2E10 /* Debug */,
+				36DB65A719CCAD62005F2E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		36DB658719CCAD61005F2E10 /* CRSBillMinder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				36DB658819CCAD61005F2E10 /* CRSBillMinder.xcdatamodel */,
+			);
+			currentVersion = 36DB658819CCAD61005F2E10 /* CRSBillMinder.xcdatamodel */;
+			path = CRSBillMinder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 36DB656819CCAD61005F2E10 /* Project object */;
+}
