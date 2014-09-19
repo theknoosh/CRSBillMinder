@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		362FC2FB19CCADF60038C104 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 362FC2FA19CCADF60038C104 /* MainStoryboard.storyboard */; };
 		36DB657419CCAD61005F2E10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DB657319CCAD61005F2E10 /* Foundation.framework */; };
 		36DB657619CCAD61005F2E10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DB657519CCAD61005F2E10 /* CoreGraphics.framework */; };
 		36DB657819CCAD61005F2E10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DB657719CCAD61005F2E10 /* UIKit.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		362FC2FA19CCADF60038C104 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = ../MainStoryboard.storyboard; sourceTree = "<group>"; };
 		36DB657019CCAD61005F2E10 /* CRSBillMinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRSBillMinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36DB657319CCAD61005F2E10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		36DB657519CCAD61005F2E10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +121,7 @@
 				36DB658519CCAD61005F2E10 /* CRSAppDelegate.m */,
 				36DB658A19CCAD61005F2E10 /* Images.xcassets */,
 				36DB658719CCAD61005F2E10 /* CRSBillMinder.xcdatamodeld */,
+				362FC2FA19CCADF60038C104 /* MainStoryboard.storyboard */,
 				36DB657C19CCAD61005F2E10 /* Supporting Files */,
 			);
 			path = CRSBillMinder;
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				362FC2FB19CCADF60038C104 /* MainStoryboard.storyboard in Resources */,
 				36DB658019CCAD61005F2E10 /* InfoPlist.strings in Resources */,
 				36DB658B19CCAD61005F2E10 /* Images.xcassets in Resources */,
 			);
@@ -448,6 +452,7 @@
 				36DB65A419CCAD62005F2E10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36DB65A519CCAD62005F2E10 /* Build configuration list for PBXNativeTarget "CRSBillMinderTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +461,7 @@
 				36DB65A719CCAD62005F2E10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
